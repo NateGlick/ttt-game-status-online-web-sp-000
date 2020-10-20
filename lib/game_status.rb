@@ -28,6 +28,5 @@ end
         
          
 def full?(board)
-   board.all? do |full|
-    
+   !board.include
 
