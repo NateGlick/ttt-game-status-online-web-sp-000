@@ -31,4 +31,6 @@ def full?(board)
    !board.include?(" ")
  end
 
-def draw
+def draw(board)
+  
+end
