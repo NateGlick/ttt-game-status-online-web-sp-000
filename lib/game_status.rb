@@ -31,7 +31,7 @@ def full?(board)
    !board.include?(" ")
  end
 
-def draw(board)
+def draw?(board)
   if full?(board) == true && won?(board) == false
     return true
   else won?(board) == true
