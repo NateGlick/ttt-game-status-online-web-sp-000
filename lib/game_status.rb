@@ -24,7 +24,6 @@ def won?(board)
     
     board[win_index_1] == board[win_index_2] && board[win_index_2] == board[win_index_3]  && board[win_index_1] ! = " "
      end
-    end
         
          
 def full?(board)
