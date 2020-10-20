@@ -22,12 +22,10 @@ def won?(board)
     win_index_3 = win_combination[2]
     
     
-    board[win_index_1] == board[win_index_2] && board[win_index_2] == board[win_index_3]  && board[win_index_1]
-      end
-        return false
+    board[win_index_1] == board[win_index_2] && board[win_index_2] == board[win_index_3]  && board[win_index_1] ! = " "
      end
     end
-         false
+        
          
 def full?(board)
    board.all? do |full|
