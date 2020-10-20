@@ -40,7 +40,6 @@ def full?(board)
     if full == "X" || full == "O"
   end
 end
-else 
   return false
 end
 
